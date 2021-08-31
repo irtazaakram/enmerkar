@@ -15,6 +15,8 @@
 
 import sys
 import os
+from django.conf import settings
+settings.configure()
 
 import enmerkar
 
@@ -271,4 +273,4 @@ texinfo_documents = [
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'https://docs.python.org/': None}
+intersphinx_mapping = {'https://docs.python.org/3/': None}
