@@ -4,7 +4,7 @@ Changelog
 0.7.2 (unreleased)
 ------------------
 
-...
+- compatibility with Django 3.1 & 3.2
 
 
 0.7.1 (2019-12-02)
