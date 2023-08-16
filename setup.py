@@ -24,7 +24,7 @@ setup(
     url='https://github.com/Zegocover/enmerkar',
     packages=find_packages(exclude=('tests',)),
     install_requires=[
-        'django>=2.2',
+        'django>=3.2',
         'babel>=1.3',
     ],
     classifiers=[
@@ -37,11 +37,10 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Framework :: Django',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: Implementation :: PyPy',
         'Programming Language :: Python :: Implementation :: CPython',
     ],

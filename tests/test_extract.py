@@ -1,13 +1,11 @@
 # -*- coding: utf-8 -*-
 import unittest
+from io import BytesIO
 
 import pytest
-
 from babel.messages import extract
-from babel._compat import BytesIO
 
 from enmerkar.extract import extract_django
-
 
 default_keys = extract.DEFAULT_KEYWORDS.keys()
 
